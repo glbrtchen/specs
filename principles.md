@@ -9,6 +9,8 @@ The specification for Standard Containers defines:
 2. a set of standard operations
 3. an execution environment.
 
+标准容器三要素：配置文件、标准操作、执行环境
+
 A great analogy for this is the physical shipping container used by the transportation industry.
 Shipping containers are a fundamental unit of delivery, they can be lifted, stacked, locked, loaded, unloaded and labelled.
 Irrespective of their contents, by standardizing the container itself it allowed for a consistent, more streamlined and efficient set of processes to be defined.
