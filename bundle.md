@@ -14,12 +14,14 @@ This includes the following three artifacts which MUST all reside in the same di
 This REQUIRED file, which MUST be named `config.json`, contains settings that are host independent and application specific such as security permissions, environment variables and arguments.
 When the bundle is packaged up for distribution, this file MUST be included.
 See [`config.json`](config.md) for more details.
+（独立于主机的配置信息，见config.json文件）
 
 2. `runtime.json` : contains host-specific configuration data.
 This REQUIRED file, which MUST be named `runtime.json`, contains settings that are host specific such as mount sources and hooks.
 The goal is that the bundle can be moved as a unit to another runtime and run the same application once a host-specific `runtime.json` is defined.
 When the bundle is packaged up for distribution, this file MUST NOT be included.
 See [`runtime.json`](runtime-config.md) for more details.
+（依赖于主机的配置信息，见runtime.json文件）
 
 3. A directory representing the root filesystem of the container.
 While the name of this REQUIRED directory may be arbitrary, users should consider using a conventional name, such as `rootfs`.
