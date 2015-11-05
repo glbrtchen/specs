@@ -5,8 +5,8 @@
 
 Table of Contents
 
-- [Container Principles](principles.md)
-- [Filesystem Bundle](bundle.md)
+- [Container Principles](principles.md) -- 已读
+- [Filesystem Bundle](bundle.md) -- 已读
 - Configuration
   - [Container Configuration](config.md)
   - [Container Configuration (Linux-specific)](config-linux.md)
@@ -22,11 +22,11 @@ To provide context for users the following section gives example use cases for e
 
 ## Filesystem Bundle & Configuration
 
-- A user can create a root filesystem and configuration, with low-level OS and host specific details, and launch it as a container under an Open Container runtime.
+- A user can create a root filesystem and configuration, with low-level OS and host specific details, and launch it as a container under an Open Container runtime.（如何创建文件系统）
 
 # Releases
 
-There is a loose [Road Map](https://github.com/opencontainers/specs/wiki/RoadMap:) on the wiki.
+There is a loose [Road Map](https://github.com/opencontainers/specs/wiki/RoadMap:) on the wiki.（wiki可以读一读）
 During the `0.x` series of OCI releases we make no backwards compatibility guarantees and intend to break the schema during this series.
 
 # Contributing
