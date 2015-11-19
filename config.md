@@ -3,6 +3,8 @@
 The container's top-level directory MUST contain a configuration file called `config.json`.
 For now the canonical schema is defined in [config.go](config.go) and [config_linux.go](config_linux.go), but this will be moved to a formal JSON schema over time.
 
+权威的格式定义为[config.go](config.go)和[config_linux.go](config_linux.go)
+
 The configuration file contains metadata necessary to implement standard operations against the container.
 This includes the process to run, environment variables to inject, sandboxing features to use, etc.
 
