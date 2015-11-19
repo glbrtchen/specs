@@ -31,4 +31,4 @@ This directory MUST be referenced from within the `config.json` file.
 While these three artifacts MUST all be present in a single directory on the local filesytem, that directory itself is not part of the bundle.
 In other words, a tar archive of a *bundle* will have these artifacts at the root of the archive, not nested within a top-level directory.
 
-文件系统包三要素：config.json、runtime.json、存放root文件系统的目录
+文件系统包三要素：config.json(针对容器的配置)、runtime.json(针对主机的配置)、存放root文件系统的目录
